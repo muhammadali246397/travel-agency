@@ -62,22 +62,22 @@ const Banner = () => {
         <div className='grid grid-cols-4 gap-4 container mx-auto px-10 pt-10'>
           <div className='hover:border-b-4 transition-all border-[#FB8E26]'>
             <img data-aos="zoom-out-left" className='hover:animate-bounce' src={icon1} alt="" />
-            <h4 className='text-2xl text-white mt-4'>Self Guide</h4>
+            <h4 data-aos='fade-down' className='text-2xl text-white mt-4'>Self Guide</h4>
             <p data-aos="fade-up" className='text-white'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, nostrum!</p>
           </div>
           <div className='hover:border-b-4 transition-all border-[#FB8E26]'>
             <img data-aos="zoom-out-left" src={icon2} alt="" className='hover:animate-bounce' />
-            <h4 className='text-2xl text-white mt-4'>Back Packer</h4>
+            <h4 data-aos='fade-down' className='text-2xl text-white mt-4'>Back Packer</h4>
             <p data-aos="fade-up" className='text-white'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, nostrum!</p>
           </div>
           <div className='hover:border-b-4 transition-all border-[#FB8E26]'>
             <img data-aos="zoom-out-left" src={icon3} alt="" className='hover:animate-bounce' />
-            <h4 className='text-2xl text-white mt-4'>Best Services</h4>
+            <h4 data-aos='fade-down' className='text-2xl text-white mt-4'>Best Services</h4>
             <p data-aos="fade-up" className='text-white'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, nostrum!</p>
           </div>
           <div className='hover:border-b-4 transition-all pb-5 border-[#FB8E26]'>
             <img data-aos="zoom-out-left" src={icon4} alt="" className='hover:animate-bounce' />
-            <h4 className='text-2xl text-white mt-4'>Affordable Prices</h4>
+            <h4 data-aos='fade-down' className='text-2xl text-white mt-4'>Affordable Prices</h4>
             <p data-aos="fade-up" className='text-white '>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, nostrum!</p>
           </div>
 
