@@ -49,8 +49,8 @@ const Banner = () => {
         ))}
       </Zoom>
       <div className='absolute top-[25%] z-10 left-[28%] py-5  mx-auto w-[700px] px-5  text-center'>
-        <h2 data-aos="fade-down" className='text-9xl font-extrabold text-transparent tracking-widest text-outline'>EXPLORE</h2>
-        <h2 data-aos="fade-up" className='tracking-widest text-8xl font-bold text-white'>THE WORLD</h2>
+        <h2 data-aos-delay="500" data-aos="fade-down" className='text-9xl font-extrabold text-transparent tracking-widest text-outline'>EXPLORE</h2>
+        <h2 data-aos-delay="500" data-aos="fade-up" className='tracking-widest text-8xl font-bold text-white'>THE WORLD</h2>
         <div data-aos="zoom-in">
           <p className='text-white text-lg tracking-wide mt-5 '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis quae provident facere minima</p>
           <button className='bg-[#FB8E26] text-white px-8 mt-5 transition-all py-3 rounded-3xl hover:bg-[#021F41] text-lg hover:animate-bounce '>Discover Now</button>

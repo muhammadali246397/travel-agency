@@ -22,15 +22,15 @@ const Navbar = () => {
                               {navlink}
                             </ul>
                         </div>
-                        <Link><img src={logo} alt="" /></Link>
+                        <Link><img data-aos="fade-right" src={logo} alt="" /></Link>
                     </div>
                     <div className="navbar-center hidden lg:flex">
-                        <ul className="menu menu-horizontal px-1">
+                        <ul data-aos="fade-down" className="menu menu-horizontal px-1">
                             {navlink}
                         </ul>
                     </div>
                     <div className="navbar-end">
-                    <button className='bg-[#FB8E26] text-white px-8 transition-all py-3 rounded-3xl hover:bg-[#021F41] text-lg 
+                    <button data-aos="fade-left" className='bg-[#FB8E26] text-white px-8 transition-all py-3 rounded-3xl hover:bg-[#021F41] text-lg 
                     '>Book Now</button>
                     </div>
                 </div>
