@@ -36,11 +36,11 @@ const About = () => {
                     </div>
                 </div>
                 <div className='pt-40 pb-20 w-3/6 '>
-                    <h3 data-aos="fade-right" className='font-bold text-2xl mb-4 text-[#FB8E26]'>About Us</h3>
+                    <h3 data-aos="fade-right" className='font-semibold text-3xl mb-4 text-[#FB8E26]'>About Us</h3>
                     <h2 data-aos='fade-right' data-aos-delay="500" className='text-5xl tracking-wide mb-8'>With Us, You Are <br /> Always In For A Pleasant Surprise</h2>
                     <p data-aos-delay="" data-aos='fade-up' className='text-lg text-[#A1A1A1]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
                     <button data-aos="zoom-in-left" className='bg-[#FB8E26] text-white px-8 transition-all flex items-center py-3 mt-5 rounded-3xl hover:bg-[#021F41] text-lg 
-                    '>Book Now <span ><BsArrowRight className='ml-3 font-semibold'></BsArrowRight></span> </button>
+                    '>Learn More <span ><BsArrowRight className='ml-3 font-semibold'></BsArrowRight></span> </button>
                 </div>
             </div>
         </div>
