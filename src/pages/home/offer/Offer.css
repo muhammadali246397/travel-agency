@@ -1,0 +1,30 @@
+
+.effect:hover .offerimg{
+  transform: scale(.90);
+  transition:0.2s;
+  
+}
+.overlay {
+  position: absolute;
+  opacity: 0;
+  transform: translateY(100px);
+  top: 0;
+  left: 0;
+  height: 487px;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  background: linear-gradient(#021f4100, #021f41be);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  transition:0.3s ease; /* Smooth sliding transition */
+}
+
+.effect:hover .overlay{
+opacity: 1;
+transform: translateY(0px);
+scale: .90; 
+
+}
+
