@@ -45,18 +45,18 @@ const Tour = () => {
         <div style={{ backgroundImage: `url(${bg1})`, backgroundSize: 'cover' }} className='py-20 hero-overlay'>
             <div className='container mx-auto px-10'>
                 <div className='mb-20'>
-                    <h2 className='text-3xl font-semibold text-[#FB8E26]'>Tours</h2>
-                    <h1 className='text-5xl font-semibold tracking-wide my-5'>
+                    <h2 data-aos='fade-right' className='text-3xl font-semibold text-[#FB8E26]'>Tours</h2>
+                    <h1 data-aos='fade-right' className='text-5xl font-semibold tracking-wide my-5'>
                         Live Your Life Through Travel
                     </h1>
-                    <div className='flex justify-between items-center mb-8'>
+                    <div data-aos='fade-up' className='flex justify-between items-center mb-8'>
                         <p className='text-lg w-8/12 text-[#A1A1A1]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eius facilis eveniet eos, asperiores libero. Beatae esse voluptatibus pariatur perferendis?</p>
 
                         <button className='bg-[#FB8E26] text-white px-8 mt-5 transition-all py-3 rounded-3xl hover:bg-[#021F41] text-lg hover:animate-bounce '>View All Packges</button>
                     </div>
 
                 </div>
-                <div className='grid grid-cols-3 gap-4'>
+                <div  className='grid grid-cols-3 gap-4'>
                     {turistPlaces.map((place, index) =><div key={index} >
                         <div>
                             <div className="card rounded-none mb-14 card-compact w-96 bg-base-100">
